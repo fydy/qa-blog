@@ -8,10 +8,12 @@ script:
   - npm run build:hash
 
 after_script:
-  - mkdir docs && cp -rf ./build/* docs
+  - cd ./build
+  - ls
   - git init
   - git config user.name "fydy"
   - git config user.email "edu@yuns.me"
   - git add .
   - git commit -m "Update docs"
-  - git push --quiet --force https://$qablog@github.com/fydy/qablog.git master
+  - git checkout -b gh-pages
+  - git push --quiet --force https://$qablog@github.com/fydy/qablog.git gh-pages
