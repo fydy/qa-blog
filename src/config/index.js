@@ -51,13 +51,13 @@ const config = {
   navItem: [
     {
       name: 'Github',
-      url: 'https://github.com/xxx',
+      url: 'https://github.com/fydy/issue-blog/issue',
       icon: 'person'
     },
     {
-      name: 'ZHIHU',
-      icon: 'user',
-      url: 'https://www.zhihu.com/people/xxx/activities'
+      name: 'facebook',
+      icon: 'facebook',
+      url: 'https://www.facebook.com/chunfengxiayu'
     }
   ],
 
@@ -70,7 +70,7 @@ const config = {
       linkList: [
         {
           name: '个人博客',
-          href: 'https://lvshi.cf/qa-blog/'
+          href: 'https://lvshi.cf/qa/'
         }
       ]
     }
