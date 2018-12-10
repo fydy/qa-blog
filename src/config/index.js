@@ -5,7 +5,7 @@ const config = {
   title: '无讼法苑',
   titleSuffix: '无讼法苑',
   description: '分享，极致生活!!!',
-  homePage: 'https://lvshi.cf/qa-blog/',
+  homePage: 'https://lvshi.cf/qablog/',
 
   userLinks: [
     {
