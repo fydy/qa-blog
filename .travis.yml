@@ -8,6 +8,7 @@ script:
   - npm run build:hash
 
 after_script:
+  - mkdir docs && cp -rf ./build/* docs
   - git init
   - git config user.name "fydy"
   - git config user.email "edu@yuns.me"
