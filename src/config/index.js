@@ -3,11 +3,8 @@ import pageConf from './pageConf'
 
 const config = {
   title: '无讼法苑',
-
-  titleSuffix: 'Blogsue',
-
+  titleSuffix: '无讼法苑',
   description: '分享，极致生活!!!',
-
   homePage: 'https://lvshi.cf/qa-blog/',
 
   userLinks: [
