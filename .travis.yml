@@ -17,25 +17,9 @@ before_install:
   - sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   - sudo apt-get update
   - sudo apt-get -y install docker-ce
-  - mkdir blog && cd blog && git clone https://github.com/CoderMing/blogsue.git ./
-
-script: 
-  - npm install
-  - npm run build:hash
   - chmod u+x ./scripts/install.sh
   - ./scripts/install.sh
   - docker build -t ${IMAGE_NAME}:latest .
-
-after_script:
-  - cd ./build
-  - ls
-  - git init
-  - git config user.name "fydy"
-  - git config user.email "edu@yuns.me"
-  - git add .
-  - git commit -m "Update docs"
-  - git checkout -b gh-pages
-  - git push --quiet --force https://$qablog@github.com/fydy/qablog.git gh-pages
 
 before_deploy:
   - docker login -u ${DOCKER_LOGIN_USER_NAME}  -p ${DOCKER_LOGIN_PASSWORD}
@@ -48,6 +32,16 @@ deploy:
   on:
     branch: master
 
-# script:
-#  - npm install
-#  - npm run build:hash
+script:
+  - npm install
+  - npm run build:hash
+  
+after_script:
+  - cd ./build
+  - git init
+  - git config user.name "fydy"
+  - git config user.email "edu@yuns.me"
+  - git add .
+  - git commit -m "Update docs"
+  - git checkout -b gh-pages
+  - git push --quiet --force https://$qablog@github.com/fydy/qablog.git gh-pages
