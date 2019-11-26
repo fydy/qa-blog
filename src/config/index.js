@@ -8,7 +8,7 @@ const config = {
 
   // 界面右边，Github头像下的标语
   // 你可以写自己的座右铭
-  description: '关注当下，立足当下，着眼未来！！！',
+  description: '关注当下，立足当下，着眼未来',
 
   // 界面右边，github头像下的链接按钮
   userLinks: [
@@ -109,4 +109,3 @@ const config = {
 }
 
 export default config
-
