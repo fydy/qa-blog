@@ -19,6 +19,8 @@ before_install:
   - sudo apt-get -y install docker-ce
 
 script:
+  - npm install
+  - npm run build:hash
   - chmod u+x ./scripts/install.sh
   - ./scripts/install.sh
   - docker build -t ${IMAGE_NAME}:latest .
