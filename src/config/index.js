@@ -62,13 +62,13 @@ const config = {
   navItem: [
     {
       name: 'Github',
-      url: 'https://github.com/fydy',
+      url: 'https://github.com/fydy/issue-blog/issue',
       icon: 'person'
     },
     {
-      name: 'ZHIHU',
-      icon: 'user',
-      url: 'https://www.zhihu.com/people/xxx/activities'
+      name: 'facebook',
+      icon: 'facebook',
+      url: 'https://www.facebook.com/chunfengxiayu'
     }
   ],
 
@@ -91,7 +91,7 @@ const config = {
    * 注意！此处是直接插入html字段，目的是为了支持更高的用户自定义度（例如使用a标签
    * 请勿插入危险的标签
    */
-  blankSections: ['Write with ❤️ by xxx'],
+  blankSections: ['Write with ❤️ by fydy-elaw'],
 
   footers: [
     '本博客系统由 <a href="http://www.reactjs.org">React.js</a> 驱动',
