@@ -85,7 +85,7 @@ const config = {
       title: '友情链接',
       linkList: [
         {
-          name: 'CoderMing的个人博客',
+          name: '个人博客(nextjs)',
           href: 'https://now.luov.me/'
         }
       ]
