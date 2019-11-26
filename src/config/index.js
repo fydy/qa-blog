@@ -4,7 +4,7 @@ import pageConf from './pageConf'
 const config = {
   title: 'E-Law',
 
-  titleSuffix: 'Blogsue',
+  titleSuffix: 'E-Law Blog',
 
   // 界面右边，Github头像下的标语
   // 你可以写自己的座右铭
@@ -61,14 +61,19 @@ const config = {
    */
   navItem: [
     {
-      name: 'Github',
+      name: 'fa-github',
       url: 'https://github.com/fydy/issue-blog/issue',
       icon: 'person'
     },
     {
       name: 'facebook',
-      icon: 'facebook',
+      icon: 'fa-facebook-official',
       url: 'https://www.facebook.com/chunfengxiayu'
+    },
+    {
+      name: 'twitter',
+      icon: 'fa-twitter',
+      url: 'https://twitter.com/chunfengxia'
     }
   ],
 
