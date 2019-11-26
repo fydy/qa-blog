@@ -117,5 +117,5 @@ const config = {
 
   pageConfApi
 }
-
+// eslint-disable-next-line
 export default config
