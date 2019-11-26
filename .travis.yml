@@ -3,6 +3,10 @@ language: node_js
 nodejs:
   - stable
 
+branches:
+  only:
+    - master
+
 env:
   global:
     - BASE_IMAGE=node
