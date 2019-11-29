@@ -67,7 +67,7 @@ const config = {
   navItem: [
     {
       name: 'github',
-      url: 'https://github.com/fydy/issue-blog/issue',
+      url: 'https://github.com/fydy/elaw/issue',
       icon: 'person'
     },
     {
