@@ -32,7 +32,7 @@ const config = {
    * issue 仓库所在地
    */
   user: 'fydy',
-  repo: 'issue-blog',
+  repo: 'elaw',
 
   // 请申请一个clientID
   clientID: 'fd9d7e21fd94cfad7f4b',
